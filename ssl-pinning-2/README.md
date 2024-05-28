@@ -9,6 +9,7 @@ Content here
 ```
 
 Set the proxy host and port from the config.js file.
+
 const PROXY_HOST = '192.168.0.111';
 const PROXY_PORT = 8082;
 
