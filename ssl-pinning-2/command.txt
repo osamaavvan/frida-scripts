@@ -1,1 +1,0 @@
-frida -U -l config.js -l native-tls-hook.js -l android-certificate-unpinning.js -l android-certificate-unpinning-fallback.js -f <package_name>
