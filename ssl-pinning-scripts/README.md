@@ -8,6 +8,11 @@ mv cacert.der cert-der.crt
 adb push cert-der.crt /data/local/tmp/
 ```
 
+**Grant the certificate appropriate permission.**
+```
+adb shell
+chmod 644 /data/local/tmp/cert-der.crt
+
 **Start the frida server & run the following command**
 ```
 frida -U -f <packagename> -l <script>.js 
